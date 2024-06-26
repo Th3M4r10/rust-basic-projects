@@ -1,0 +1,11 @@
+[package]
+name = "concurrent_web_spider"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+reqwest = "0.12.5"
+futures = "0.3"
+html5ever = "0.27"
+regex = "1.10.5"
